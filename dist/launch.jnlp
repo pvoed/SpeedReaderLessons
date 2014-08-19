@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>SpeedReaderLessons</title>
+        <vendor>DaVo</vendor>
+        <homepage href=""/>
+        <description>SpeedReaderLessons</description>
+        <description kind="short">SpeedReaderLessons</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="SpeedReaderLessons.jar" main="true"/>
+    </resources>
+    <application-desc main-class="GUI.Main">
+    </application-desc>
+</jnlp>
